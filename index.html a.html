@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script src="main.js"></script>
+      <link rel="stylesheet" href="style a.css" />
+</head>
+<body>
+      
+      <div class="questionDiv">
+            <label id="questionTitle"></label>
+            <button id="answer1" onclick = "nextQuestion(this,'Geoghraphic')"></button>
+            <button id="answer2" onclick = "nextQuestion(this,'Geoghraphic')" style="margin-top: 100px;"></button>
+            <button id="answer3" onclick = "nextQuestion(this,'Geoghraphic')" style="margin-top: 200px;"></button>
+      </div>
+      <a href="index option.html">
+            <button id="aa1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+            </svg></button>
+            </a>
+</a>
+      <label id="timer"></label>
+
+      <script id="tim">
+      function myFunction() {
+      let i =25
+      let timer=setInterval(function(){
+      document.getElementById("timer").innerText=i;
+      i--;
+      if(i==0 ){
+      clearInterval(timer)
+      window.location.replace("index.html lose.html");
+      }
+      }
+      , 1000);
+      }
+      myFunction();
+
+      examType("Geoghraphic");
+
+      </script>
+
+
+      <audio id="audio1"  autoplay loop>
+            <source src="project1m.mp3" type="audio/mp3">
+          </audio>
+ 
+
+</body>
+</html>

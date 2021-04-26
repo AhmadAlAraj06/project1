@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://www.bergerpaints.com/colour-magazine/Upload/Quiz/Banner/quiz-bnr-nov19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height:100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+button{
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 0);
+
+}
+#start1{
+    position: absolute;
+    left: 250px;
+    top: 300px;
+}
+#ins{
+    position: absolute;
+    left: 450px;
+    top: 300px;
+   
+}
+#about{
+    position: absolute;
+    left: 665px;
+    top:  300px;
+}
+#ba{
+    position: absolute;
+    left: 20px;
+    top:  30px;
+}
